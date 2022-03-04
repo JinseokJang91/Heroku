@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*폰트 설정*/
+body, h1, h2, h3, h4, h5, h6, span, p, small{
+	font-family: 'Gowun Dodum';
+}
+#mainBody{
+	background: black;
+}
+/*각 항목 전체 영역 설정*/
+.contents{
+	/*width: 100%;*/
+}
+
+#mainImg{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+#mainText{
+	position: absolute;
+	width: 60%;
+	top: 11%;;
+	left: 12%;;
+	color: white;
+	font-size: 2vw;
+}
+#navbarTitleDiv{
+	width: 40%;
+}
+#navbarTitleDiv a{
+	padding-left: 1.5rem;
+}
+#navbarMenu{
+	width: 60%;
+	text-align: center;
+	padding-left: 12rem;
+}
+#navbarMenu li{
+	font-weight: bolder;
+	margin-right: 1rem;
+}
+#navbarMenu a:hover{
+	color: #28B463;
+}
+/*
+@media(min-width: 768px){
+	
+}
+@media(min-width: 992px){
+	
+}
+@media(min-width: 1200px){
+	
+}*/
+#index1, #index2, #index3{
+	padding-top: 56px;
+}
+/*각 항목 뒷 영역 배경 설정*/
+#contentsOuter0{
+	background: black;
+	height: auto;
+}
+#contentsOuter1{
+	background: black;
+	height: auto;
+}
+#contentsOuter2{
+	background: black;
+	height: auto;
+}
+#contentsOuter3{
+	background: black;
+	height: auto;
+	padding-bottom: 3rem;
+}
+/*각 항목 앞 영역 배경 및 세부 설정*/
+#content1{
+	background: skyblue;
+	margin: 0 auto;
+	width: 85%;
+	height: 100%;
+}
+#content2{
+	background: #0E6655;
+	margin: 0 auto;
+	width: 85%;
+	height: 100%;
+	color:white;
+	padding-bottom: 1.5rem;
+	border-radius: 30px;
+}
+#content3{
+	background: #F1C40F;
+	margin: 0 auto;
+	width: 85%;
+	height: 100%;
+	padding-bottom: 3rem;
+	border-radius: 30px;
+}
+#content4{
+	background: yellowgreen;
+	margin: 0 auto;
+	width: 85%;
+	height: 100%;
+	padding-bottom: 2.5rem;
+	border-radius: 30px;
+}
+
+/*각 항목 제목 설정*/
+.contentTitle{
+	text-align: center;
+	padding-top: 1.5rem;
+}
+.aboutMeContents{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+/*ABOUT ME 세부사항 설정*/
+.aboutmeInfo{
+	text-align: center;
+}
+/*개발 아이콘 설정*/
+.developmentIcon{
+	display: inline-block;
+}
+#developIcon1{
+	width: 3.7vw;
+	height: 3.7vw;
+}
+#developIcon2{
+	width: 5vw;
+	height: 3.5vw;
+}
+#developIcon3{
+	width: 7.3vw;
+	height: 3.5vw;
+}
+#developIcon4{
+	width: 4.2vw;
+	height: 3.5vw;
+}
+#developIcon5{
+	width: 5.5vw;
+	height: 3.5vw;
+}
+#developIcon6{
+	width: 4.2vw;
+	height: 3.5vw;
+}
+#developIcon7{
+	width: 6.2vw;
+	height: 3.5vw;
+}
+#developIcon8{
+	width: 5vw;
+	height: 3.8vw;
+	padding-left: 1rem;
+}
+#developIcon9{
+	width: 8vw;
+	height: 3.5vw;
+}
+/*ABILITY 항목 설정*/
+.abilityContents{
+	margin: 0 auto;
+	background: white;
+	border-radius: 10px;
+	color:#1C2833;
+	width: 50%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.projectContents{
+	margin: 0 auto;
+	background: white;
+	border-radius: 10px;
+	color:#1C2833;
+	
+	
+}
+
+.projectImgDiv{
+	text-align: center;
+	padding-top: 1rem;
+	background: black;
+	color: white;
+}
+.projectImg{
+	width: 90%;
+	height: auto;
+}
+
+footer{
+	width: 100%;
+	padding: 10px 0;
+	background: black;
+	color: white;
+	text-align: center;
+}
+.footerDiv{
+	width: 96%;
+	border-top: 1px solid white;
+	margin: 0 auto;
+}
