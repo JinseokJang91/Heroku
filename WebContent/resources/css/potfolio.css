@@ -52,7 +52,7 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 @media(min-width: 1200px){
 	
 }*/
-#index1, #index2, #index3{
+#aboutMe, #ability, #project{
 	padding-top: 56px;
 }
 /*각 항목 뒷 영역 배경 설정*/

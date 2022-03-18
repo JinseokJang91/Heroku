@@ -28,16 +28,16 @@
 			<div class="collapse navbar-collapse" id="navbarMenu">
 				<ul class="navbar-nav d-flex">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#index1">ABOUT ME</a>
+						<a class="nav-link active" aria-current="page" href="#aboutMe">ABOUT ME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="#index2">ABILITY</a>
+						<a class="nav-link active" href="#ability">ABILITY</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="#index3">PROJECT</a>
+						<a class="nav-link active" href="#project">PROJECT</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#index4">ETC</a>
+						<a class="nav-link disabled" href="#etc">ETC</a>
 					</li>
 				</ul>
 			</div>
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 			
-			<div id="index1"></div>
+			<div id="aboutMe"></div>
 			<div class="contents" id="contentsOuter1">
 				<div class="row g-0" id="content2">
 					<h1 class="contentTitle"><b><ins>ABOUT ME</ins></b></h1>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 			
-			<div id="index2"></div>
+			<div id="ability"></div>
 			<div class="contents" id="contentsOuter2">
 				<div class="row g-0" id="content3">
 					<h1 class="contentTitle"><b><ins>ABILITY</ins></b></h1>
@@ -140,73 +140,14 @@
 				</div>
 			</div>
 			
-			<div id="index3"></div>
+			<div id="project"></div>
 			<div class="contents" id="contentsOuter3">
 				<div class="row g-0" id="content4">
 					<h1 class="contentTitle"><b><ins>PROJECT</ins></b></h1>
 	
 					<div class="card mb-5 mt-5" style="width: 66.6%; margin: 0 auto;">
 						<div class="card-header text-center">
-						<h3><b>코로나 백신 예약 프로그램</b></h3>
-						<small>2021.06</small>
-						</div>
-						<div class="row g-0">
-							<div class="col-xxl-7 col-xl-7 col-lg-12 col-md-12 projectImgDiv">
-								<p><i class="fa-solid fa-bookmark"></i> Main Screen</p>
-								<img class="projectImg" src="resources/images/mini_main.PNG">
-								<br><br><br>
-							</div>
-							<div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12">
-								<div class="card-body">
-									<p class="card-title" style="text-align: center;"><i class="fa-solid fa-bookmark"></i> Description</p>
-									<p class="card-text">
-										<b>코로나 감염 시 취약층인 고령층을 위해 나이순으로 순차적 접종이 가능하도록
-										지역별 제휴 병원을 선정하여 코로나 백신 예약 시스템을 구성하였습니다.</b>
-										<br><br>
-										Java Swing 패키지의 GUI를 활용한 프로젝트로 DB를 사용하기 이전 과정이었기 때문에
-										데이터를 가져오기 위해 외부 라이브러리인 Apache POI를 적용하는 것에 도전하여
-										Excel 파일의 데이터를 활용할 수 있었습니다.
-										<br><br>
-										위 프로젝트는 당시 라이브러리에 대한 개념이 부족할 때 외부 라이브러리 적용에 도전해
-										성공해낸 것에 큰 성취감을 얻음과 동시에 개발에 대한 매력을 느낄 수 있었던 경험이었습니다.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="card mb-5 mt-5" style="width: 66.6%; margin: 0 auto;">
-						<div class="card-header text-center">
-						<h3><b>반려나무 판매 사이트</b></h3>
-						<small>2021.08 ~ 2021.09</small>
-						</div>
-						<div class="row g-0">
-							<div class="col-xxl-7 col-xl-7 col-lg-12 col-md-12 projectImgDiv">
-								<p><i class="fa-solid fa-bookmark"></i> Main Screen</p>
-								<img class="projectImg" src="resources/images/semi_main.PNG">
-								<br><br><br>
-							</div>
-							<div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12">
-								<div class="card-body">
-									<p class="card-title" style="text-align: center;"><i class="fa-solid fa-bookmark"></i> Description</p>
-									<p class="card-text">
-										<b>반려나무 구매 시 원하는 숲을 선택해 나무 한 그루를 심어 산불 피해 및 미세먼지 예방 등
-										공익적 가치와 경제적 가치를 동시에 추구하는 코즈 마케팅을 활용한 반려나무 판매 사이트입니다.</b>
-										<br><br>
-										Servlet/JSP 기반 웹 애플리케이션 프로젝트로 JDBC 연결을 통해 Database에서 화면까지의 데이터의 흐름과 구조를
-										파악할 수 있었던 프로젝트였습니다. 화면단은 Bootstrap을 활용해 반응형으로 작업하였습니다.
-										<br><br>
-										위 프로젝트는 기획 단계에서부터 DB 설계까지 팀 단위로 많은 소통과 협력을 통해 완성할 수 있었습니다.
-										또한 각 기능의 CRUD 구현에서 화면 구성까지 전반적인 웹 개발 프로세스를 경험할 수 있었습니다.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-	
-					<div class="card mb-5 mt-5" style="width: 66.6%; margin: 0 auto;">
-						<div class="card-header text-center">
-						<h3><b>간식 및 생일 구독 서비스</b></h3>
+						<h3><b>SNACKPOT</b></h3>
 						<small>2021.10 ~ 2021.11</small>
 						</div>
 						<div class="row g-0">
@@ -219,20 +160,92 @@
 								<div class="card-body">
 									<p class="card-title" style="text-align: center;"><i class="fa-solid fa-bookmark"></i> Description</p>
 									<p class="card-text">
-										<b>기업에서 직원들을 위한 간식과 생일선물을 챙겨주기 위한 복지를 보다 쉽고 경제적인 관리를 위해
-										간식 및 구독 서비스를 제공하는 웹 사이트입니다.</b>
+										기업에서 <b>직원들을 위한 간식 및 생일선물 복지를 보다 효율적으로 관리할 수 있는 
+										간식 및 생일 구독 서비스를 제공</b>하는 웹 사이트입니다.
 										<br><br>
-										Spring framework를 활용한 Spring MVC Project로 IOC, DO 등의 스프링 특성에 기반하여
-										JSTL, AJAX 등을 이용해 기능들을 구현하였습니다.
+										Spring MVC Project로 Spring framework를 활용하여 개발하였습니다.
+										일부 기능은 AJAX, JSTL을 적극 활용하였고, 화면은 Bootstrap을 활용하였습니다.
 										<br><br>
-										위 프로젝트는 기능들을 세부적으로 직접 구성해야 했기에 팀원들과 가장 소통을 많이 했던 프로젝트였습니다.
-										또한 비동기 방식이 적합한 기능들을 AJAX로 구현하기 위해 도전하여 성공해낸 것에 큰 성취감을 얻을 수 있었습니다.
+										기능들을 세부적으로 직접 구성해야 했던 주제였기 때문에 <b>팀원들과의 소통과 협업 비중이
+										많은 부분을 차지했던 프로젝트</b>입니다.
+										Spring framework의 특성을 이해하고 기능을 활용해 다양한 기능을 구현하였고, 
+										<b>비동기 방식이 적합한 기능들을 AJAX로 구현</b>하여 효율적으로 기능을 구성하였습니다.
 									</p>
+									<p><i class="fa-solid fa-link"></i>&nbsp;<b>GitHub</b><br>
+									<a href="https://github.com/JinseokJang91/SnackPot.git">https://github.com/JinseokJang91/SnackPot.git</a></p>
 								</div>
 							</div>
 						</div>
 					</div>
 					
+					<div class="card mb-5 mt-5" style="width: 66.6%; margin: 0 auto;">
+						<div class="card-header text-center">
+						<h3><b>GIFTREE</b></h3>
+						<small>2021.08 ~ 2021.09</small>
+						</div>
+						<div class="row g-0">
+							<div class="col-xxl-7 col-xl-7 col-lg-12 col-md-12 projectImgDiv">
+								<p><i class="fa-solid fa-bookmark"></i> Main Screen</p>
+								<img class="projectImg" src="resources/images/semi_main.PNG">
+								<br><br><br>
+							</div>
+							<div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12">
+								<div class="card-body">
+									<p class="card-title" style="text-align: center;"><i class="fa-solid fa-bookmark"></i> Description</p>
+									<p class="card-text">
+										<b>반려나무 구매 시 산불 피해 숲 등에 나무 한 그루를 기증할 수 있는
+										코즈 마케팅을 활용한 반려나무 판매 사이트</b>입니다.
+										<br><br>
+										MVC 패턴에 기반한 JSP프로젝트로	서 각 주요 기능의 동작은 Servlet과 JavaScript로 구현하였고,
+										 화면단은 Bootstrap을 활용해 반응형으로 작업하였습니다.
+										<br><br>
+										<b>MVC패턴 구조를 이해하고 데이터의 흐름을 파악할 수 있었던 프로젝트</b>였습니다.
+										기획 단계에서부터 DB 설계까지의 프로젝트 수행 단계를 밟아나가며 
+										팀 단위로 많은 소통과 협력을 통해 완성할 수 있었습니다.
+										또한 각 기능의 CRUD 구현과 화면 구성을 통해 전반적인 웹 개발 프로세스를 경험할 수 있었습니다.
+									</p>
+									<p><i class="fa-solid fa-link"></i>&nbsp;<b>GitHub</b><br>
+									<a href="https://github.com/JinseokJang91/Giftree.git">https://github.com/JinseokJang91/Giftree.git</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer text-end">
+						<button class="btn btn-primary">더 알아보기</button>
+						</div>
+					</div>
+					
+					<div class="card mb-5 mt-5" style="width: 66.6%; margin: 0 auto;">
+						<div class="card-header text-center">
+						<h3><b>코로나 백신 예약 프로그램</b></h3>
+						<small>2021.05 ~ 2021.06</small>
+						</div>
+						<div class="row g-0">
+							<div class="col-xxl-7 col-xl-7 col-lg-12 col-md-12 projectImgDiv">
+								<p><i class="fa-solid fa-bookmark"></i> Main Screen</p>
+								<img class="projectImg" src="resources/images/mini_main.PNG">
+								<br><br><br>
+							</div>
+							<div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12">
+								<div class="card-body">
+									<p class="card-title" style="text-align: center;"><i class="fa-solid fa-bookmark"></i> Description</p>
+									<p class="card-text">
+										<b>코로나 감염 시 취약층인 고령층을 위해 나이순으로 순차적 접종이 가능하도록
+										지역별 제휴 병원을 선정하여 코로나 백신 예약 시스템을 구성한 프로젝트입니다.</b>
+										<br><br>
+										Java Swing 패키지의 GUI를 활용한 프로젝트로 DB를 사용하기 이전 과정이었기 때문에
+										데이터를 가져오기 위해 외부 라이브러리인 Apache POI를 적용해
+										Excel 파일의 데이터를 활용할 수 있었습니다.
+										<br><br>
+										<b>처음으로 직접 기능을 개발하고, GitHub를 이용해 팀원들과 협업했던 프로젝트</b>로서
+										진행 과정 내에서 겪었던 수많은 시행착오를 통해 성취감을 얻을 수 있었습니다.
+										이 경험을 통해 웹 개발자의 꿈을 가질 수 있었습니다.
+									</p>
+									<p><i class="fa-solid fa-link"></i>&nbsp;<b>GitHub</b><br>
+									<a href="https://github.com/JinseokJang91/COVID19_Reservation_System.git">https://github.com/JinseokJang91/COVID19_Reservation_System.git</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
