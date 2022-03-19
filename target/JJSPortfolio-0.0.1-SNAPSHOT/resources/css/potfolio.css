@@ -33,7 +33,7 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 #navbarMenu{
 	width: 60%;
 	text-align: center;
-	padding-left: 12rem;
+	padding-left: 15rem;
 }
 #navbarMenu li{
 	font-weight: bolder;
@@ -52,7 +52,7 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 @media(min-width: 1200px){
 	
 }*/
-#index1, #index2, #index3{
+#aboutMe, #ability, #project{
 	padding-top: 56px;
 }
 /*각 항목 뒷 영역 배경 설정*/
@@ -75,13 +75,13 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 }
 /*각 항목 앞 영역 배경 및 세부 설정*/
 #content1{
-	background: skyblue;
 	margin: 0 auto;
 	width: 85%;
 	height: 100%;
 }
 #content2{
-	background: #0E6655;
+	background: #2E8B57;
+	/*background: #0E6655;*/
 	margin: 0 auto;
 	width: 85%;
 	height: 100%;
@@ -90,7 +90,8 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 	border-radius: 30px;
 }
 #content3{
-	background: #F1C40F;
+	background: #CDFF5A;
+	/*background: #F1C40F;*/
 	margin: 0 auto;
 	width: 85%;
 	height: 100%;
@@ -98,7 +99,7 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 	border-radius: 30px;
 }
 #content4{
-	background: yellowgreen;
+	background: #EDD94C;
 	margin: 0 auto;
 	width: 85%;
 	height: 100%;
@@ -124,41 +125,41 @@ body, h1, h2, h3, h4, h5, h6, span, p, small{
 	display: inline-block;
 }
 #developIcon1{
-	width: 3.7vw;
-	height: 3.7vw;
+	max-width: 80px;
+	height: auto;
 }
 #developIcon2{
-	width: 5vw;
-	height: 3.5vw;
+	max-width: 130px;
+	height: auto;
 }
 #developIcon3{
-	width: 7.3vw;
-	height: 3.5vw;
+	max-width: 180px;
+	height: auto;
 }
 #developIcon4{
-	width: 4.2vw;
-	height: 3.5vw;
+	max-width: 80px;
+	height: auto;
 }
 #developIcon5{
-	width: 5.5vw;
-	height: 3.5vw;
+	max-width: 120px;
+	height: auto;
 }
 #developIcon6{
-	width: 4.2vw;
-	height: 3.5vw;
+	max-width: 90px;
+	height: auto;
 }
 #developIcon7{
-	width: 6.2vw;
-	height: 3.5vw;
+	max-width: 180px;
+	height: auto;
 }
 #developIcon8{
-	width: 5vw;
-	height: 3.8vw;
+	max-width: 80px;
+	height: auto;
 	padding-left: 1rem;
 }
 #developIcon9{
-	width: 8vw;
-	height: 3.5vw;
+	max-width: 160px;
+	height: auto;
 }
 /*ABILITY 항목 설정*/
 .abilityContents{
@@ -202,4 +203,69 @@ footer{
 	width: 96%;
 	border-top: 1px solid white;
 	margin: 0 auto;
+}
+#goTop{
+	text-decoration: none;
+	color: white;
+	display:scroll;
+	position:fixed;
+	bottom:22px;
+	right:22px;
+}
+/*modal css*/
+#snackpotImgDiv{
+	text-align: center;
+}
+.snackpotImg{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+#giftreeImgDiv{
+	text-align: center;
+}
+.giftreeImg{
+	width: 100%;
+	height: auto;
+}
+.iconParentDiv{
+	display: table;
+}
+
+.iconDiv{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	color: #DCDCDC;
+}
+
+.icon{
+	transform: scale(3);
+}
+
+.iconParentDiv:hover{
+	display: table;
+	background: #F8F8FF;
+}
+.iconDiv:hover{
+	color: black;
+}
+#snackPotPage, #giftreePage{
+	float: right;
+}
+.modalDiscription{
+	font-size: larger;
+}
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.fa-github{
+	transform: scale(1.2);
 }
