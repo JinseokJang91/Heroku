@@ -367,7 +367,7 @@
 							<br>
 							각 기능은 URL mapping을 통해 Controller에서 작업을 수행하였습니다.
 							또한 각 구독 회사의 구독 정보가 중복되지 않도록 HttpSession 객체에 담겨있는 정보를 활용하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>생일 구독 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/java/com/kh/spring/birthday/subscribe" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/webapp/WEB-INF/views/company/birthday" target="_blank">View</a></h5>
@@ -397,8 +397,8 @@
 							<br>
 							각 기능은 URL mapping을 통해 Controller에서 작업을 수행하였습니다.
 							카테고리별 선물 상품 목록 조회 기능은 사용 빈도수가 높은 기능이므로 페이지 로딩 속도를 높이기 위해 AJAX를 사용해 부분 갱신이 이뤄지도록 설정하였습니다.
-							</p>
-							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>공지사항 팝업 GitHub</b></h5>
+							</p><hr>
+							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>선물 리스트 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/java/com/kh/spring/birthday/giftList" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/webapp/WEB-INF/views/company/birthday" target="_blank">View</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/blob/master/src/main/resources/mappers/birthday-mapper.xml" target="_blank">Mapper</a></h5>
@@ -425,7 +425,7 @@
 							<br>
 							각 기능은 URL mapping을 통해 Controller에서 작업을 수행하였습니다.
 							발송 예정 및 발송 완료 탭 기능은 AJAX로 구현하여 각 버튼 클릭 시 해당 부분만을 갱신하도록 설정하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>발송현황 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/java/com/kh/spring/birthday/sendingStatus/controller" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/webapp/WEB-INF/views/company/birthday" target="_blank">View</a></h5>
@@ -459,8 +459,8 @@
 							<br>
 							각 기능은 URL mapping을 통해 Controller에서 작업을 수행하였습니다.
 							선물리스트 지정 기능은 AJAX로 구현하여 해당 부분만을 갱신하도록 설정하였습니다.
-							</p>
-							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>FAQ GitHub</b></h5>
+							</p><hr>
+							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>발송 리스트 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/java/com/kh/spring/birthday/sendList" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/webapp/WEB-INF/views/company/birthday" target="_blank">View</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/blob/master/src/main/resources/mappers/birthday-mapper.xml" target="_blank">Mapper</a></h5>
@@ -471,7 +471,11 @@
 							<i class="fa-solid fa-check"></i> 선물 상품의 CRUD 기능을 수행할 수 있는 페이지입니다.<br>
 							<br>
 							각 기능은 URL mapping을 통해 Controller에서 작업을 수행하였습니다.
-							</p>
+							</p><hr>
+							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>선물 리스트(본사) GitHub</b></h5>
+							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/java/com/kh/spring/birthday_HO/giftList_HO" target="_blank">Controller</a></h5>
+							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/tree/master/src/main/webapp/WEB-INF/views/headoffice/birthday_HO" target="_blank">View</a></h5>
+							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/SnackPot/blob/master/src/main/resources/mappers/birthday-mapper_HO.xml" target="_blank">Mapper</a></h5>
 						</div>
 						<div class="col-12" id="snackpotContent13">
 							<h5><b>기능 설명</b></h5>
@@ -586,7 +590,7 @@
 							<br>
 							각 기능은 연결된 Servlet에서 작업을 수행하였습니다. 이미지 파일의 경우 cos라이브러리를 적용하여
 							MultipartRequest 객체를 통해 처리하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>제품 관리 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/src/com/kh/admin/adminProduct" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/WebContent/views/admin/adminProduct" target="_blank">View</a></h5>
@@ -611,11 +615,11 @@
 							<i class="fa-solid fa-check"></i> 주문내역 리스트를 조회할 수 있는 페이지입니다.<br>
 							<i class="fa-solid fa-check"></i> 카테고리를 선택해 내용을 입력한 후 검색 버튼을 클릭하면 해당 검색 내용을 포함한 결과를 확인할 수 있습니다.<br>
 							<i class="fa-solid fa-check"></i> 배송 상태를 선택한 후 수정 버튼을 클릭하면 해당 상품의 배송 상태가 변경됩니다.<br>
-							<i class="fa-solid fa-check"></i> 주문상세번호 클릭 시 해당 주문의 전체 정보 및 상세 정보를 modal창에 출력합니다.<br>
+							<i class="fa-solid fa-check"></i> 주문상세번호 클릭 시 해당 주문 정보를 담은 modal창이 나타나게 됩니다.<br>
 							<br>
 							배송 상태 변경 및 주문 정보 확인 기능은 각 Servlet에서 작업을 수행하였습니다. 검색 기능은 JavaScript로 구현하였고, 주문상세번호로 검색 시
 							숫자만 입력이 가능하게 설정하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>주문내역 관리 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/src/com/kh/admin/adminOrder" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/WebContent/views/admin/adminOrder" target="_blank">View</a></h5>
@@ -623,16 +627,8 @@
 						<div class="col-12" id="giftreeContent6">
 							<h5><b>기능 설명</b></h5>
 							<p class="modalDiscription">
-							<i class="fa-solid fa-check"></i> 카테고리를 선택해 내용을 입력한 후 검색 버튼을 클릭하면 해당 검색 내용을 포함한 결과를 확인할 수 있습니다.<br>
-							<i class="fa-solid fa-check"></i> 배송 상태를 선택한 후 수정 버튼을 클릭하면 해당 상품의 배송 상태가 변경됩니다.<br>
 							<i class="fa-solid fa-check"></i> 주문상세번호 클릭 시 해당 주문의 전체 정보 및 상세 정보를 modal창에 출력합니다.<br>
-							<br>
-							배송 상태 변경 및 주문 정보 확인 기능은 각 Servlet에서 작업을 수행하였습니다. 검색 기능은 JavaScript로 구현하였고, 주문상세번호로 검색 시
-							숫자만 입력이 가능하게 설정하였습니다.
 							</p>
-							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>주문내역 관리 GitHub</b></h5>
-							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/src/com/kh/admin/adminOrder" target="_blank">Controller</a></h5>
-							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/WebContent/views/admin/adminOrder" target="_blank">View</a></h5>
 						</div>
 						<div class="col-12" id="giftreeContent7">
 							<h5><b>기능 설명</b></h5>
@@ -641,7 +637,7 @@
 							<i class="fa-solid fa-check"></i> 문의 제목을 클릭하면 해당 문의에 대한 답변 등록 또는 수정 페이지로 이동합니다.<br>
 							<br>
 							답변 작성 및 수정 기능은 각 Servlet에서 작업을 수행하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>1:1 문의 답변 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/src/com/kh/admin/adminAnswer" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/WebContent/views/admin/adminAnswer" target="_blank">View</a></h5>
@@ -659,7 +655,7 @@
 							<br>
 							Bootstrap의 accordion클래스를 사용해 구현하였으며, 원하는 항목을 동시다발적으로 조회할 수 있도록
 							질문 각각의 accordion에 collapse 기능을 설정하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>FAQ GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/src/com/kh/faq" target="_blank">Controller</a></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/WebContent/views/faq" target="_blank">View</a></h5>
@@ -671,7 +667,7 @@
 							<i class="fa-solid fa-check"></i> 오늘 하루 그만 보기를 클릭 또는 체크할 경우 해당 팝업은 24시간 후에 나타나게 됩니다.<br>
 							<br>
 							JavaScript에서 document.cookie 속성을 사용해 쿠키값을 임의로 설정하여 해당 팝업의 가시 여부를 결정하였습니다.
-							</p>
+							</p><hr>
 							<h5><i class="fa-brands fa-github"></i>&nbsp;<b>공지사항 팝업 GitHub</b></h5>
 							<h5><i class="fa-solid fa-circle-check"></i>&nbsp;<a href="https://github.com/JinseokJang91/Giftree/tree/master/WebContent/views/admin/adminNotice" target="_blank">View</a></h5>
 						</div>
